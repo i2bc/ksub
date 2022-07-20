@@ -29,8 +29,10 @@ int main(int argc, char** argv) {
 	vector <string>output;
 
 	ifstream i;
+	//input.txt : Path of FASTA files to request
 	i.open("input.txt",ios::in);
 	ifstream o;
+	//output.txt : Jaccard index output files path
 	o.open("output.txt",ios::in);
 	if (i.is_open()){   //checking whether the file is open
 	     string tp;
